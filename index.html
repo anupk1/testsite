@@ -1,12 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Hello, World!</title>
+  <meta charset="UTF-8">
+  <title>Hello Effect</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: black;
+    }
+
+    .hello {
+      font-size: 50px;
+      color: white;
+      transition: color 0.3s;
+    }
+  </style>
 </head>
 <body>
+  <div id="helloText" class="hello">Hello, World!</div>
 
-    <h1>Hello, World!</h1>
-    <h1> New line added post deployment to azure from github</h1>
+  <script>
+    const helloText = document.getElementById('helloText');
 
+    helloText.addEventListener('mouseover', function() {
+      helloText.style.color = 'blue';
+    });
+
+    helloText.addEventListener('mouseout', function() {
+      helloText.style.color = 'white';
+    });
+  </script>
 </body>
 </html>
