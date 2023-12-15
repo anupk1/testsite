@@ -2,6 +2,7 @@
 <html>
 <head>
     <title>Anup Kumar - Business Card</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -14,17 +15,25 @@
         }
         .card {
             background-color: white;
-            padding: 20px;
-            border-radius: 8px;
+            padding: 40px;
+            border-radius: 12px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             text-align: center;
+            max-width: 80%;
         }
         .name {
-            font-size: 24px;
-            margin-bottom: 10px;
+            font-size: 32px;
+            margin-bottom: 20px;
         }
         .contact {
-            font-size: 18px;
+            font-size: 24px;
+        }
+        a {
+            color: #0000EE;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
@@ -32,8 +41,10 @@
     <div class="card">
         <div class="name">Anup Kumar</div>
         <div class="contact">
-            Phone: 8368524535<br>
+            Phone: <a href="tel:8368524535">8368524535</a><br>
             Email: <a href="mailto:mail@anupk.com">mail@anupk.com</a>
+             <a href="whatsapp://send?phone=[8368524535]">Connect with WhatsApp</a>
+
         </div>
     </div>
 </body>
