@@ -1,25 +1,40 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Hello World</title>
+    <title>Anup Kumar - Business Card</title>
     <style>
         body {
-            background-color: black;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
             margin: 0;
         }
-        #hello {
-            font-size: 48px;
-            background-image: linear-gradient(to right, blue, purple, pink);
-            -webkit-background-clip: text;
-            color: transparent;
+        .card {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .name {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .contact {
+            font-size: 18px;
         }
     </style>
 </head>
 <body>
-    <div id="hello">Hello World</div>
+    <div class="card">
+        <div class="name">Anup Kumar</div>
+        <div class="contact">
+            Phone: 8368524535<br>
+            Email: <a href="mailto:mail@anupk.com">mail@anupk.com</a>
+        </div>
+    </div>
 </body>
 </html>
