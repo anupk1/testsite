@@ -1,0 +1,745 @@
+<!DOCTYPE html><html lang="en"><head>
+        <meta charset="utf-8">
+        <meta name="description" content="How to get into consulting industry master class">
+        <title>Consulting career</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" id="favicon1" href="https://tagmango.com/staticassets/-favicon-1649353860556.png">
+        <link rel="apple-touch-icon" id="favicon2" href="https://tagmango.com/staticassets/-favicon-1649353860556.png">
+        
+        
+        
+        <link href="https://tagmango.com/staticassets/contentboxpagebuilder/assets/minimalist-blocks/content.css" rel="stylesheet" type="text/css">
+        <link href="https://tagmango.com/staticassets/contentboxpagebuilder/box/box-flex.css" rel="stylesheet" type="text/css">
+        <link href="https://tagmango.com/staticassets/contentboxpagebuilder/assets/scripts/glide/css/glide.core.css" rel="stylesheet" type="text/css">
+        <link href="https://tagmango.com/staticassets/contentboxpagebuilder/assets/scripts/glide/css/glide.theme.css" rel="stylesheet" type="text/css">
+        <link href="https://tagmango.com/staticassets/contentboxpagebuilder/assets/scripts/navbar/navbar.css" rel="stylesheet" type="text/css">
+        <link href="assets/styles/basetype-opensans.css" rel="stylesheet">
+<link data-name="contentstyle" data-class="type-poppins" href="https://tagmango.com/staticassets/contentboxpagebuilder/assets/styles/type-poppins.css" rel="stylesheet">    
+        <style>
+          body {
+            background: #d3d3d3;
+          }
+        </style>
+        <script>
+  var pageTracker = null;
+  var docSource = '';
+  var utmString = '';
+  var timeStart = new Date().getTime();
+  var reportingUrl = 'https://api-production.tagmango.com';
+  var mango = '657477209ffbf4158c5878fa';
+  var creator = '6568a143454c25535a9beee5';
+  var pageId = '657479029ffbf4158c58cc3e';
+  function postData(data, url, successCallback) {
+    const xhr = new XMLHttpRequest();
+    xhr.open('POST', url, true);
+    xhr.setRequestHeader('Content-Type', 'application/json');
+    xhr.onreadystatechange = () => {
+      if (xhr.readyState === 4 && xhr.status === 200) {
+        // console.log(xhr.responseText);
+        const resp = JSON.parse(xhr.responseText);
+        if (resp.code === 0) {
+          successCallback(resp);
+        }
+      }
+    };
+    xhr.send(data);
+  }
+  var readyStateCheckInterval = setInterval(function() {
+    if (utmString) {
+        clearInterval(readyStateCheckInterval);
+        console.log('document ready');
+        document.querySelectorAll('.main-btn-link')?.forEach((btn) => {
+          if (btn.classList.contains('lead-btn')) {
+            return;
+          }
+          btn.href = btn.href + utmString + '&trackerId=' + pageTracker + '&disableMoe=true';
+          btn.target = '_blank';
+          btn.addEventListener('click', () => {
+            postData(JSON.stringify({
+              trackId: pageTracker,
+              event: "purchase-initiated",
+              data: {
+                timeSpentToPurchaseInitiated: new Date().getTime() - timeStart,
+              }
+            }), 'https://api-production.tagmango.com/analytics/event', (resp) => {
+              console.log('purchase initiated');
+            })
+          });
+        });
+    }
+}, 10);
+    
+      window.addEventListener('load', () => {
+        let { referrer } = document;
+        const screenWidth = window.screen.width;
+        const screenHeight = window.screen.height;
+        const { userAgent } = navigator;
+        const timezone = Intl.DateTimeFormat().resolvedOptions().timeZone;
+        if (referrer === '') {
+          referrer = 'empty';
+        }
+        docSource = referrer;
+        const data = {
+          page: pageId,
+          creator,
+          mango,
+          referrer,
+          screenWidth,
+          screenHeight,
+          userAgent,
+          timezone,
+        };
+        postData(
+          JSON.stringify(data),
+          'https://api-production.tagmango.com/analytics/page-view',
+          (resp) => {
+            pageTracker = resp.result;
+            utmString = `&utm_source=${docSource}&utm_medium=657477209ffbf4158c5878fa&utm_campaign=${pageTracker}`;
+          }
+        );
+      });
+      window.addEventListener('unload', () => {
+        const data = {
+          trackId: pageTracker,
+          event: "page-close",
+          data: {
+            timeSpentToExit: new Date().getTime() - timeStart,
+          }
+        };
+        postData(JSON.stringify(data), 'https://api-production.tagmango.com/analytics/event', (resp) => {
+          console.log('page closed');
+        });
+      });</script>
+      </head>
+      <body style="touch-action: pan-y">
+        <div class="is-wrapper">
+          <div class="is-section is-section-100" style="background-color: rgb(0, 0, 0);">
+    <style>
+        .is-container {
+            z-index: unset !important;
+        }
+
+        .text-highlight {
+            position: relative;
+            color: #C13438;
+            overflow: hidden;
+        }
+
+        .text-highlight img {
+            position: absolute;
+            bottom: -42px;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+            display: block;
+        }
+
+        .banner-pointer {
+            background-color: rgba(255, 255, 255, 0.10);
+            column-gap: 1rem;
+        }
+
+        .banner-pointer img {
+            width: 2rem;
+            height: 2rem;
+            object-fit: contain;
+        }
+
+        .happy-learners {
+            gap: 1em;
+        }
+
+        .happy-learners-avatar-group>img+img {
+            margin-left: -1em;
+        }
+
+        .happy-learners-avatar-group img {
+            width: 3em;
+            height: 3em;
+            object-fit: cover;
+            object-position: center;
+            border: 2px solid #231926;
+        }
+
+        .column-separator-vertical {
+            align-self: stretch;
+            height: 3.5em;
+            width: 2px;
+            margin: 0 2em 0 1em;
+            background: radial-gradient(grey, #150D17);
+        }
+
+        .gap-_5 {
+            gap: 0.5em;
+        }
+
+        .gap-1 {
+            gap: 1em;
+        }
+
+        .gap-2 {
+            gap: 2em;
+        }
+
+        .gap-3 {
+            gap: 3em;
+        }
+
+        .ml-auto {
+            margin-left: auto;
+        }
+
+        .mr-auto {
+            margin-right: auto;
+        }
+
+        .course-content {
+            border: 1px solid #150D17;
+            overflow: hidden;
+        }
+
+        .course-content-info {
+            background-color: #150D17;
+            padding: 1em;
+        }
+
+        .module-wrapper {
+            padding: 0em 1em;
+        }
+
+        .module-wrapper>.module+.module {
+            border-top: 1px solid #150D17;
+        }
+
+        .module {
+            padding: 1.5em 0em;
+        }
+
+        .module-content-list {
+            padding: 0 1.5em;
+        }
+
+        .course-sell-card {
+            position: sticky;
+            top: 60px;
+            border: 2px solid #C13438;
+            background-color: #150D17;
+            padding: 1.5em;
+        }
+
+        .testimonial-box {
+            background-color: #231926;
+            padding: 1.5em;
+            margin-bottom: 1em;
+        }
+
+        .testimonee-box>img {
+            width: 3em;
+            height: 3em;
+        }
+
+        .timerbox-with-cta-wrapper {
+            background: url("https://tagmango.com/staticassets/-noise-course-min-82a51a35f386b9ee79fe40ba96500d55.png"), #C13438;
+            padding: 3em;
+        }
+
+        .timerbox {
+            width: 4.25em;
+            height: 4.25em;
+            border: 1px solid #fff;
+        }
+
+        .faq-box {
+            border: 1px solid #150D17;
+            padding: 2em;
+            background-color: #150D17;
+        }
+
+        .course-cta-box {
+            overflow: hidden;
+            align-items: stretch;
+            background-color: #C13438;
+        }
+
+        .course-cta-media {
+            width: 36%;
+            display: block;
+            flex-shrink: 0;
+        }
+
+        .course-cta-media-height {
+            position: relative;
+            padding-top: 100%;
+            display: block;
+            overflow: hidden;
+        }
+
+        .course-cta-media-img {
+            position: absolute;
+            inset: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center center;
+        }
+
+        .course-cta-content {
+            padding: 3em;
+        }
+
+        @media only screen and (max-width: 767px) {
+            .banner-pointer {
+                margin-bottom: 0.75em;
+            }
+
+            .column-separator-vertical {
+                height: 2px;
+                width: 100%;
+                margin: 1em 0;
+            }
+
+            .flex-col-reverse-mobile {
+                display: flex !important;
+                flex-flow: column-reverse;
+            }
+
+            .justify-center-mobile {
+                justify-content: center
+            }
+
+            .text-highlight img {
+                bottom: -20px;
+            }
+
+            .content-pb-80 {
+                padding-bottom: 3em !important;
+            }
+
+            .content-pt-80 {
+                padding-top: 3em !important;
+            }
+
+            .module-content-list {
+                padding: 0;
+
+            }
+
+            .module-content-list-item {
+                align-items: flex-start;
+            }
+
+            .module-content-list-item i {
+                align-items: flex-start;
+                line-height: 1;
+            }
+
+            .timerbox-wrapper {
+                flex-wrap: wrap;
+                justify-content: center;
+                text-align: center;
+            }
+
+            .timerbox-wrapper>p {
+                width: 100%;
+                margin-right: 0;
+            }
+
+            .timerbox {
+                width: 3em;
+                height: 3em;
+            }
+
+            .timerbox-with-cta-wrapper {
+                padding: 1.5em;
+            }
+
+            .timerbox-with-cta {
+                flex-direction: column;
+            }
+
+            .course-cta-box {
+                flex-direction: column;
+            }
+
+            .course-cta-media {
+                width: 100%
+            }
+
+            .course-cta-content {
+                padding: 1.5em;
+            }
+
+            .course-cta-info-box {
+                flex-direction: column;
+                align-items: flex-start;
+                row-gap: 0.25em;
+                margin: 1em 0;
+            }
+
+        }
+    </style>
+    <div class="is-boxes">
+        <div class="is-box is-box-6 box-autofit min-height-40 is-light-text">
+            <div class="is-overlay">
+                <div class="is-overlay-bg" style="background-image: url(&quot;https://tagmango.com/staticassets/-noise-course-min-0404614707467ed050ef81d9eac640c3.png&quot;); background-position: 50% 60%;"></div>
+            </div>
+            <div class="is-boxes">
+                <div class="is-box-centered">
+                    <div class="is-container v2 size-17 leading-13 is-content-800">
+                        <div class="row relative desktop-hidden md-hidden">
+                            <div class="column full desktop-hidden md-hidden">
+                                <div class="spacer desktop-hidden md-hidden height-120"></div>
+                            </div>
+
+                        </div>
+                        <div class="row" style="transform: translateZ(0px);">
+                            <div class="column full" style="width: 100%; flex: 0 0 auto;">
+                                <h1 class="size-68 font-bold leading-12"><span class="size-76">
+                                        <font style="font-family: Poppins, sans-serif;">HOW TO GET INTO <font style="color: rgb(58, 140, 233);">CONSULTING INDUSTRY</font> AND JOIN A SIX-FIGURE JOB WITHOUT TECHNICAL KNOWLEDGE OR AN MBA DEGREE</font>
+                                    </span><br><span class="text-highlight"><img src="https://tagmango.com/staticassets/1693390367732.png" alt="" data-filename="underline.png"></span></h1>
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="column full">
+                                <div class="spacer height-20"></div>
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="column full">
+                                <div id="bannerR">
+                                    <div align="center" data-freestar-ad="__300x600" id="lipsumcom_right_siderail" name="lipsumcom_right_siderail" data-google-query-id="CPTAh6nnkoEDFVdVnQkdE5sI9A"><br class="Apple-interchange-newline">
+                                        <div id="google_ads_iframe_/15184186,22440292294/lipsumcom_right_siderail_0__container__"></div>
+                                    </div>
+                                </div>
+                                <div class="boxed">
+                                    <div id="lipsum">
+                                        <p class="leading-12 size-18" style="font-family: Poppins, sans-serif;">Use my simple step by step process to create and package your experience in a way that speaks to your target firm's pain point and goals<br></p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="column">
+                                <h1 class="size-48" style="color: rgb(59, 159, 64); font-family: Poppins, sans-serif;">
+                                    <font style="color: rgb(58, 140, 233);">Date : 7th January 2024</font>
+                                </h1>
+                                <p>
+                                    <font style="font-family: Poppins, sans-serif;">
+                                        <font>Time: 11 AM Sharp</font>
+                                    </font>
+                                </p>
+                                <p>
+                                    <font style="font-family: Poppins, sans-serif;">Language: English&nbsp;</font>
+                                </p>
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="column full">
+                                <div class="spacer height-20"></div>
+                            </div>
+
+                        </div>
+
+                        <div class="row">
+                            <div class="column full">
+                                <div class="spacer height-60"></div>
+                            </div>
+
+                        </div>
+                        <div class="row relative">
+                            <div class="column full">
+                                <div style="display: block;">
+                                    <a href="#" role="button" class="transition-all cursor-pointer no-underline border-2 border-solid uppercase border-transparent tracking-75 hover:border-transparent rounded-lg mr-0 mb-0 mt-0 ml-0 flex justify-center items-center font-semibold size-21 leading-12 px-8 pt-5 pb-5 text-center" title="" style="color: rgb(255, 255, 255); background-color: rgb(193, 52, 56);" data-bg="rgb(193,52,56)">
+                                        <font style="font-family: Poppins, sans-serif;">BOOK YOUR SPOT NOW</font>
+                                    </a>
+
+                                </div>
+                                <div>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="row">
+                            <div class="column">
+                                <div class="spacer height-40"></div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="is-box is-box-6 is-content-top box-autofit min-height-60 last-box">
+            <div class="is-overlay banner-media">
+                <div class="is-overlay-bg is-scale-animated" style="background-image: url(&quot;https://tagmango.com/staticassets/-anup-standing-behind-a-chair-6-75e5b6422311806dbdcf69079d48763f.png&quot;); background-position: 50% 60%;"></div>
+            </div>
+        </div>
+
+    </div>
+
+</div>
+
+<div class="is-section is-box box-autofit is-light-text min-height-60 is-section-auto last-box">
+    <div class="is-overlay">
+        <div class="is-overlay-bg" style="background-image: url(&quot;https://tagmango.com/staticassets/-noise-course-min-82a51a35f386b9ee79fe40ba96500d55.png&quot;); background-size: contain !important; background-repeat: repeat;"></div>
+    </div>
+    <div class="is-boxes">
+        <div class="is-box-centered edge-y-0-5">
+            <div class="is-container v2 size-17 leading-13 content-pt-80 content-pb-80 is-content-1400">
+                <div class="row">
+                    <div class="column full">
+                        <div class="spacer height-20 xs-hidden"></div>
+                    </div>
+
+                </div>
+                <div class="row items-center gap-2 flex-col-reverse-mobile">
+                    <div class="column two-fourth"><img src="https://tagmango.com/staticassets/1702193876188.png" alt="" data-filename="Anup standing behind a chair-5.png"></div>
+                    <div class="column">
+                        <div class="row">
+                            <div class="column full leading-12" style="font-family: Poppins, sans-serif;">
+                                <span class="font-semibold size-32" style="color: rgb(72, 72, 72);">Anup Kumar Sati</span>
+                                <p dir="ltr" class="size-18 leading-14" style="color: rgb(72, 72, 72);">Digital Coach who has 10+ years experience in the consulting industry. On a mission to help people start their career in consulting and live a sensible life.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row">
+                    <div class="column full">
+                        <div class="spacer height-20 xs-hidden"></div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="is-section is-box is-section-100 type-poppins box-autofit last-box" style="background-color: rgb(0, 0, 0);">
+    <div class="is-overlay"></div>
+    <div class="is-boxes">
+        <div class="is-box-centered is-opacity-95">
+            <div class="is-container v2 size-16 leading-13 is-content-1200">
+                <div class="row">
+                    <div style="min-height: 54px; color: rgb(255, 255, 255);" class="column full">
+                        <p>
+                            <font>
+                                <font style="color: rgb(255, 255, 255);"></font><span class="size-24">
+                                    <font style="color: rgb(255, 255, 255);"><b style="color: rgb(181, 37, 37);">Note</b></font><span class="size-24">
+                                        <font style="color: rgb(255, 255, 255);"><b style="color: rgb(181, 37, 37);"></b>:</font>
+                                        <font style="color: rgb(255, 255, 255);"> According to a market report published, the Global Consulting Market size is predicted to rise from USD 512 billion in 2023 to USD 1.3 trillion by 2026.&nbsp;</font>
+                                    </span>
+                                    <font style="color: rgb(255, 255, 255);" class="size-24"></font>
+                                </span>
+                                <font style="color: rgb(255, 255, 255);"><br>
+                                </font>
+                            </font>
+                            <font style="color: rgb(255, 255, 255);">
+                            </font>
+                        </p>
+                        <p>
+                            <font><span class="size-24">
+                                    <font style="color: rgb(255, 255, 255);"><br></font>
+                                </span></font>
+                        </p><img src="https://tagmango.com/staticassets/1702178914667.png" alt="" data-filename="Screenshot 2023-12-10 at 8.48.12 AM-editRcoFVIy.png">
+                        <p>
+                            <font style="color: rgb(255, 255, 255);"><span class="size-24"></span></font>
+                        </p>
+                        <font style="color: rgb(255, 255, 255);" class="size-24"><br></font>
+                        <div>
+                            <font style="color: rgb(255, 255, 255);" class="size-24"></font>
+                        </div>
+                        <font><span class="size-24" style="color: rgb(58, 140, 233);">By 2047, India aims to be the world's third biggest economy. Consulting is key to achieving this goal sustainably. </span><span class="font-semibold"><span class="size-24">
+                                    <font>Let's team </font>
+                                </span><span class="size-24">
+                                    <font>up</font>
+                                </span></span><span class="size-24" style="color: rgb(58, 140, 233);">
+                                <font></font>
+                            </span><span class="size-24" style="color: rgb(58, 140, 233);"> to make India one of the top three economies! I'll guide you on starting a consulting career to be part of this huge change. Together, we can </span><span class="size-24">
+                                <font>shape India's future</font>
+                            </span><span class="size-24" style="color: rgb(58, 140, 233);"> and create a real impact. Let's work side by side to make this amazing future </span><span class="size-24">
+                                <font>a reality!</font>
+                            </span>
+                        </font>
+                        <div>
+                            <p>
+                                <font style="color: rgb(249, 168, 37);"><br></font>
+                            </p>
+                            <div><img src="https://tagmango.com/staticassets/1702178914603.png" alt="" data-filename="Screenshot 2023-12-10 at 8.06.11 AM-editWC4uieF.png">
+                                <p dir="ltr"><br></p><br class="Apple-interchange-newline">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="column full">
+                        <div class="spacer height-80"></div>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="column full">
+                        <div class="spacer height-80"></div>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="column third">
+                        <div class="text-left" style="color: rgb(255, 255, 255);">
+                            <i class="icon ion-android-globe size-32" style="color: rgb(59, 159, 64);"></i>
+                        </div>
+                        <h3 class="font-normal tracking-wider size-21" style="color: rgb(255, 255, 255); font-family: Poppins, sans-serif;">Know the terrain</h3>
+                        <p style="color: rgb(255, 255, 255);" class="size-19">Unveiling the First Secret to Starting Your Consulting Career</p>
+                    </div>
+                    <div class="column third">
+                        <div class="text-left" style="color: rgb(255, 255, 255);">
+                            <i class="icon ion-medkit size-32" style="color: rgb(198, 40, 40);"></i>
+                        </div>
+                        <h3 class="font-normal tracking-wider size-21" style="color: rgb(255, 255, 255);">Evolving client needs</h3>
+                        <p>
+                            <font style="color: rgb(255, 255, 255);" class="size-18">The Second Key to Consulting Success</font>
+                        </p>
+                    </div>
+                    <div class="column third">
+                        <div class="text-left" style="color: rgb(255, 255, 255);">
+                            <i class="icon ion-trophy size-32" style="color: rgb(0, 218, 148);"></i>
+                        </div>
+                        <h3 class="font-normal tracking-wider size-21" style="color: rgb(255, 255, 255);">Selecting the target</h3>
+                        <p style="color: rgb(255, 255, 255);" class="size-18">The Third Secret to Launching Your Consulting Career</p>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="column full">
+                        <div class="spacer height-40"></div>
+                    </div>
+
+                </div>
+                <link href="//fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900" rel="stylesheet" property="stylesheet">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="is-section is-box box-autofit is-light-text min-height-60 is-section-auto last-box" style="background-color: rgb(0, 0, 0);">
+    <div class="is-overlay">
+        <div class="is-overlay-bg" style="background-image: url(&quot;https://tagmango.com/staticassets/-noise-course-min-82a51a35f386b9ee79fe40ba96500d55.png&quot;); background-position: 50% 60%;"></div>
+    </div>
+    <div class="is-boxes">
+        <div class="is-box-centered edge-y-0-5">
+            <div class="is-container v2 size-17 leading-13 content-pt-80 content-pb-80 is-content-1200">
+
+                <div class="row">
+                    <div class="column full">
+                        <div class="spacer height-80"></div>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="column full">
+                        <div class="course-cta-box flex rounded-2xl">
+                            <div class="course-cta-media">
+                                <div class="course-cta-media-height">
+                                    <img src="https://tagmango.com/staticassets/1702194483177.png" class="course-cta-media-img" alt="" data-filename="Screenshot 2023-12-10 at 1.16.45 PM-editLMCM3Yh.png">
+                                </div>
+                            </div>
+                            <div class="course-cta-content flex flex-col justify-center">
+                                <h3 class="text-left font-bold size-32" style="margin-bottom: 0.25em;">
+                                    <font style="font-family: Poppins, sans-serif;"><br>Embark your consulting career journey</font>
+                                </h3>
+                                <div class="course-cta-info-box flex items-center gap-1">
+                                    <div class="course-cta-info-item flex items-center gap-_5">
+                                        <p class="size-16 mt-0 mb-0 font-medium">
+                                            <font style="font-family: Poppins, sans-serif;">2 hrs &nbsp;master class</font>
+                                        </p>
+                                    </div>
+                                    <div class="course-cta-info-item flex items-center gap-_5">
+                                        <i class="icon ion-android-document size-24"></i>
+                                        <p class="size-16 mt-0 mb-0 font-medium">
+                                            <font style="font-family: Poppins, sans-serif;">3 Secrets</font>
+                                        </p>
+                                    </div>
+                                    <div class="font-semibold size-16 flex items-center justify-center-mobile">
+                                        <i class="icon ion-android-star size-24 mr-2" style="color: #FEC031"></i>
+                                        <font style="font-family: Poppins, sans-serif;">Reach for stars
+                                        </font>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="column full">
+                                        <div class="spacer height-20"></div>
+                                    </div>
+
+                                </div>
+                                <p class="size-16 mt-0 mb-0">
+                                    <font style="font-family: Poppins, sans-serif;">Become part of master class and take your first step to start the exciting journey in consulting&nbsp;</font>
+                                </p>
+                                <div></div>
+                                <p></p>
+                                <div class="row">
+                                    <div class="column full">
+                                        <div class="spacer height-40"></div>
+                                    </div>
+
+                                </div>
+                                <a href="#" role="button" class="transition-all cursor-pointer no-underline border-2 border-solid uppercase border-transparent tracking-75 hover:border-transparent rounded-lg mr-0 mb-0 mt-0 ml-0 flex justify-center items-center font-bold size-21 leading-12 px-8 pt-5 pb-5 text-center" title="" style="color: rgb(193, 52, 56); background-color:rgb(255, 255, 255); " data-bg="rgb(255,255,255)">
+                                    <font style="font-family: Poppins, sans-serif; color: rgb(58, 140, 233);">BOOK YOUR SPOT&nbsp;</font>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="column full">
+                        <div class="spacer height-60"></div>
+                    </div>
+
+                </div>
+                <div class="row">
+                    <div class="column full">
+                        <p class="size-12 mt-0 mb-0 text-center">Copyright © 2023 AnupK Academy. All Rights Reserved.</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+        </div>
+        <script src="https://tagmango.com/staticassets/contentboxpagebuilder/assets/scripts/glide/glide.js" type="text/javascript"></script>
+        <script src="https://tagmango.com/staticassets/contentboxpagebuilder/assets/scripts/navbar/navbar.min.js" type="text/javascript"></script>
+    
+        <script src="https://tagmango.com/staticassets/contentboxpagebuilder/box/box-flex.js" type="text/javascript"></script>
+    
+        <!-- Optional: if you want to add smooth scrolling -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.10/SmoothScroll.min.js" type="text/javascript"></script>
+        <script>
+          SmoothScroll({
+            frameRate: 150,
+            animationTime: 800,
+            stepSize: 120,
+            pulseAlgorithm: 1,
+            pulseScale: 4,
+            pulseNormalize: 1,
+            accelerationDelta: 300,
+            accelerationMax: 2,
+            keyboardSupport: 1,
+            arrowScroll: 50,
+            fixedBackground: 0,
+          });
+        </script>
+        <script src="https://tagmango.com/staticassets/timer2.js"></script>
+      
+    
+    </body></html>
