@@ -1,14 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
+body {
+  font-family: arial;
+  margin: 0;
+}
+
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  max-width: 300px;
-  margin: auto;
+  margin: 10px auto;
   text-align: center;
-  font-family: arial;
+  max-width: 400px; /* Adjust for smaller screens */
 }
 
 .title {
@@ -16,10 +21,14 @@
   font-size: 18px;
 }
 
+.contact-info {
+  margin-top: 10px;
+}
+
 button {
   border: none;
   outline: 0;
-  display: inline-block;
+  display: block;
   padding: 8px;
   color: white;
   background-color: #000;
@@ -27,36 +36,43 @@ button {
   cursor: pointer;
   width: 100%;
   font-size: 18px;
+  margin-bottom: 10px;
 }
 
 a {
   text-decoration: none;
-  font-size: 22px;
+  font-size: 18px; /* Adjusted for mobile */
   color: black;
 }
 
 button:hover, a:hover {
   opacity: 0.7;
 }
+
+@media (min-width: 768px) { /* Tablet and desktop styles */
+  .card {
+    max-width: 500px; /* Adjust for larger screens */
+  }
+  a {
+    font-size: 22px; /* Restore original font size */
+  }
+}
 </style>
 </head>
 <body>
 
-<h2 style="text-align:center"></h2>
-
 <div class="card">
   <img src="Anup Profile Picture.png" alt="Anup" style="width:100%">
-  <h1>Anup Kumar </h1>
+  <h1>Anup Kumar</h1>
   <p class="title">Be the person you needed most</p>
-  <p>When you were stuck </p>
-  <p class="title">
-            Phone: <a href="tel:8368524535">8368524535</a><br>
-            Email: <a href="mailto:mail@anupk.com">mail@anupk.com</a><br>
-            WhatsApp: <a href="https://wa.me/918368524535">WhatsApp</a>
-  </p>   
-
+  <p>When you were stuck</p>
+  <div class="contact-info">
+    <a href="tel:8368524535">Phone: 8368524535</a><br>
+    <a href="mailto:mail@anupk.com">Email: mail@anupk.com</a><br>
+    <a href="https://wa.me/918368524535">WhatsApp</a>
+  </div>
+  <button>Contact Me</button>
 </div>
 
 </body>
 </html>
-
