@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anup Kumar — Visuals & On-Ground Services</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Header / Hero Section -->
+    <header class="site-header">
+        <h1>Anup Kumar</h1>
+        <p class="tagline">Through my lens, stories, and on-ground documentation.</p>
+        <div class="header-links">
+            <a href="#portfolio" class="nav-link">Portfolio</a>
+            <a href="#services" class="nav-link">On-Ground Services</a>
+            <a href="#contact" class="nav-link">Get in Touch</a>
+        </div>
+    </header>
+
+    <!-- Photography Portfolio Section -->
+    <section id="portfolio" class="section">
+        <div class="container">
+            <h2>Selected Works</h2>
+            <p class="section-subtitle">A visual journey through my lens.</p>
+
+            <div class="photo-grid">
+                <div class="photo-card">
+                    <img src="assets/images/photo-1.jpg" alt="Photography sample 1" loading="lazy">
+                </div>
+                <div class="photo-card">
+                    <img src="assets/images/photo-2.jpg" alt="Photography sample 2" loading="lazy">
+                </div>
+                <div class="photo-card">
+                    <img src="assets/images/photo-3.jpg" alt="Photography sample 3" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- On-Ground Visual Audits & Property Services Section -->
+    <section id="services" class="section bg-light">
+        <div class="container">
+            <h2>On-Ground Visual Audits & Property Monitoring</h2>
+            <p class="section-subtitle">Reliable, transparent on-site reporting for NRIs and remote property owners.</p>
+
+            <div class="services-grid">
+                <div class="service-card">
+                    <h3>Periodic Photo & Video Logs</h3>
+                    <p>Regular scheduled visits to your plots, farms, or land parcels to capture high-resolution photos and video documentation of boundaries and surroundings.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Live Video Walkthroughs</h3>
+                    <p>Connect in real-time via WhatsApp or video call directly from your property so you can inspect every corner live with complete peace of mind.</p>
+                </div>
+                <div class="service-card">
+                    <h3>Aerial / Drone Coverage</h3>
+                    <p>Comprehensive overhead views and video documentation for large farms, open land, or expansive properties to monitor construction or land status.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact / Footer Section -->
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <h2>Let's Connect</h2>
+            <p class="section-subtitle">Have a project, assignment, or need property monitoring in India? Reach out directly.</p>
+            
+            <div class="contact-actions">
+                <a href="https://wa.me/918368524535" target="_blank" class="btn btn-whatsapp">Chat on WhatsApp</a>
+                <a href="mailto:mail@anupk.com" class="btn btn-email">Send an Email</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 Anup Kumar. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
